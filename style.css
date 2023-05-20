@@ -1,8 +1,11 @@
 body {
     background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    color: hsl(0, 0%, 100%);
 }
-
-
+.main-div, .thank-you-div {
+    background-color: hsl(213, 19%, 18%);
+}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
