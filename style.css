@@ -20,6 +20,7 @@ body {
     background-color: hsl(213, 19%, 18%);
     border-radius: 15px;
     padding: 1.5rem;
+    width: 350px;
 }
 .img {
     width: 40px;
@@ -36,11 +37,15 @@ img {
 .rate-btn {
     display:flex;
     justify-content: space-around;
+    margin: 2rem 0 1.5rem 0;
 }
 .rate-btn a {
     width: 40px;
     height: 40px;
-    padding: 11px 5px 5px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
     background-color: hsl(214, 20%, 23%);
     color: hsl(216, 12%, 54%);
     border-radius: 50%;
@@ -55,10 +60,14 @@ img {
     background-color: hsl(217, 12%, 63%);
     color: white;
 }
+h1 {
+    margin: 1rem 0;
+}
 p {
     font-weight: 400;
     color: hsl(216, 12%, 54%);
 }
+
 
 
 .attribution { font-size: 11px; text-align: center; }
