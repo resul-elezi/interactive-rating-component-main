@@ -91,14 +91,24 @@ p {
     justify-content: center;
 }
 .thank-you-div img {
-    margin: 0 auto;
+    margin: 1rem;
+    width: 50%;
+    
 }
 .thank-you-div span {
+    margin-top: .5rem;
+    padding: .35rem .5rem .25rem .5rem;
+    border-radius: 1rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(214, 20%, 23%);
+}
+.h-thx {
     width: 100%;
     text-align: center;
-    padding: .5rem;
-    border-radius: 1rem;
-    background-color: hsl(214, 20%, 23%);
+    margin-top: 1.5rem;
+}
+.thank-you-div p {
+    text-align: center;
 }
 
 
