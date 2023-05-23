@@ -19,6 +19,86 @@ body {
 .main-div, .thank-you-div {
     margin-top: 10rem;
     background-color: hsl(213, 19%, 18%);
+    border-radius: 15px;
+    padding: 1.5rem;
+    width: 330px;
+}
+.img {
+    width: 40px;
+    height: 40px;
+	display: felx;
+	align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: hsl(214, 20%, 23%);
+}
+img {
+    margin: 12px 0 0 12px;
+}
+.rate-btn {
+    display:flex;
+    justify-content: space-around;
+    margin: 2rem 0 1.5rem 0;
+}
+.rate-btn a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 3px;
+    background-color: hsl(214, 20%, 23%);
+    color: hsl(216, 12%, 54%);
+    border-radius: 50%;
+    cursor: pointer;
+    text-decoration: none;
+}
+.rate-btn a:hover {
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+}
+.rate-btn a:focus {
+    background-color: hsl(217, 12%, 63%);
+    color: white;
+}
+.submit-btn {
+    width: 100%;
+    padding: .75rem;
+    border: none;
+    border-radius: 20px;
+    background-color: hsl(25, 97%, 53%);
+    color: white;
+    text-transform: uppercase;
+}
+.submit-btn:hover {
+    background-color: white;
+    color: hsl(25, 97%, 53%);
+    cursor: pointer;
+}
+h2 {
+    margin: 1rem 0;
+}
+p {
+    color: hsl(216, 12%, 54%);
+}
+/*.thank-you-div*/.main-div {
+    display: none;
+}
+.thank-you-div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.thank-you-div img {
+    margin: 0 auto;
+}
+.thank-you-div span {
+    width: 100%;
+    text-align: center;
+    padding: .5rem;
+    border-radius: 1rem;
+    background-color: hsl(214, 20%, 23%);
 }
 
 
