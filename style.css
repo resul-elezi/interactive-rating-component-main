@@ -9,9 +9,9 @@
 body {
     min-height: 100vm;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
-    flex-wrap: wrap;
     background-color: hsl(216, 12%, 8%);
     font-size: 15px;
     color: hsl(0, 0%, 100%);
@@ -110,5 +110,10 @@ p {
 .thank-you-div{
     display: none;
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+.attribution {
+    margin: 2rem;
+    font-size: 11px; text-align: center;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
