@@ -81,9 +81,6 @@ h2 {
 p {
     color: hsl(216, 12%, 54%);
 }
-/*.thank-you-div*/.main-div {
-    display: none;
-}
 .thank-you-div {
     display: flex;
     flex-wrap: wrap;
@@ -110,8 +107,8 @@ p {
 .thank-you-div p {
     text-align: center;
 }
-
-
-
+.thank-you-div{
+    display: none;
+}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
