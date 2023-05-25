@@ -7,7 +7,7 @@
     font-family: "Overpass", sans-serif;
 }
 body {
-    min-height: 100vm;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
