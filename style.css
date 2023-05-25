@@ -17,7 +17,7 @@ body {
     color: hsl(0, 0%, 100%);
 }
 .main-div, .thank-you-div {
-    margin-top: 10rem;
+    margin-top: 8rem;
     background-color: hsl(213, 19%, 18%);
     border-radius: 15px;
     padding: 1.5rem;
