@@ -78,6 +78,9 @@ img {
 h1 {
     margin: 1rem 0;
 }
+.h-one {
+    padding: 1rem 0;
+}
 p {
     color: hsl(216, 12%, 54%);
 }
