@@ -82,7 +82,7 @@ p {
     color: hsl(216, 12%, 54%);
 }
 .thank-you-div {
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
@@ -106,9 +106,6 @@ p {
 }
 .thank-you-div p {
     text-align: center;
-}
-.thank-you-div{
-    display: none;
 }
 .attribution {
     margin: 2rem;
